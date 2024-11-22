@@ -1,5 +1,5 @@
 new Typed(".multiple-text", {
-  strings: ["Paper Crafts", "Knitting & Crochet", "Jewelry Making","Home Decor Crafts","Clay & Pottery",">DIY Gifts"],
+  strings: ["Paper Crafts", "Knitting & Crochet", "Jewelry Making","Home Decor Crafts","Clay & Pottery","DIY Gifts"],
   typeSpeed: 50,
   backSpeed: 50,
   backDelay: 1000,

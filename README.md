@@ -1,7 +1,7 @@
 # Adoption Cat Website
 
-This website is created to make your live more colorfull with cat in your home. So don't waste your time and bring our cats home.
-But actually this Website was made to complete checkpoint assigment of second module in third week of my really amazing course. The content inspiration is based from how much I love cats.
+Welcome to the Crafting Portfolio Website! This project showcases creative crafting techniques and features an engaging user interface with several advanced functionalities, including typed CSS animations, a responsive carousel, and a dark mode toggle.
+But actually this Website was made to complete checkpoint assigment of first milestone of my really amazing course. The content inspiration is based from how much I love crafting.
 In this website I add some of features such as dark mode, amazing carausel with only css and carausel also js.
 
 ## Table of Contents
@@ -20,10 +20,41 @@ This project is a simple HTML, CSS and JavaScript website created for learning p
 
 ## Project Link
 
-Visit the live site here: [MeCat - Deployed Website](https://mecats.my.id/)
+Visit the live site here: [Althea - Deployed Website](https://mecats.my.id/)
 
 ## Features
+1. **Typed CSS Animation**
+- The homepage includes a visually appealing typed animation effect that displays rotating text or words, dynamically capturing user attention.
+- This feature is implemented using CSS and -JavaScript for smooth transitions and custom styling.
+-Customizable speed and text list make it easy to tailor the animation to specific content.
+- Technology Used:
 
+- Typed.js or a similar JavaScript library.
+
+2. Responsive Carousel
+- The website includes a carousel (image slider) to showcase crafting projects or testimonials.
+- The carousel supports: Multiple slides with smooth transitions, Auto-play and navigation arrows for user control, 
+Fully responsive design that adapts seamlessly to different screen sizes.
+*Features*:
+
+- Auto-scroll with customizable delay.
+- Pause-on-hover functionality.
+- Swipe support for mobile users.
+- Technology Used:
+
+    A lightweight library like Slick Carousel or native CSS with JavaScript.
+3. Dark Mode
+- The website includes a dark mode toggle that enhances user experience, especially in low-light environments.
+- Users can switch between light and dark themes with a single click, and the preference is saved locally for future visits.
+*Features*:
+
+  - Modern, accessible design with smooth transitions.
+  - Automatic detection of the user's system preferences (light/dark mode).
+  - Persistent theme storage using localStorage.
+<br>- *Implementation*:
+
+  - CSS custom properties (variables) for colors.
+  - JavaScript for toggling themes and saving user preferences.
 - **Responsive Design**: The website adjusts to various screen sizes to ensure optimal viewing on desktops, tablets, and mobile devices.
 - **Clean Layout**: A user-friendly layout and navigation make it easy for visitors to find information.
 - **CSS Styling**: Basic CSS styling has been used to enhance the visual appeal of the webpage.
@@ -49,7 +80,7 @@ Visit the live site here: [MeCat - Deployed Website](https://mecats.my.id/)
 2. Clone the repository:
 
 ```bash
-  git clone https://github.com/revou-fsse-oct24/module-2-amandzaa.git
+  git clone https://github.com/revou-fsse-oct24/milestone-1-amandzaa.git
 ```
 
 3. Open it directly with double click the html file or you can open it with preview in Visual Studio Code.
