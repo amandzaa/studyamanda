@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="project milestone porto 1" content="this is my porto" />
     <title>My Portfolio</title>
+    <link rel="icon" href="assets/caticon.png" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -12,324 +14,529 @@
     />
   </head>
   <body>
-    <div class="container active" id="container">
-      <header class="site-header">
-        <a href="#home" class="logo">Portfolio.</a>
-        <i class="bx bx-menu" id="menu-icon"></i>
-        <nav class="navbar">
-          <a href="#home" style="--i:1;"class="active">Home</a>
-          <a href="#services" style="--i:2;" >Services</a>
-          <a href="#resume" style="--i:3;">Resume</a>
-          <a href="#portfolio" style="--i:4;">Portfolio</a>
-          <a href="#contact" style="--i:5;">Contact</a>
-        </nav>
-        <div class="toggle-icon" style="--i:6;">
-          <i class="bx bx-moon"></i>
-        </div>
-      </header>
-
+    <header class="site-header">
+      <a href="#home" class="logo">Althea.</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" style="--i:1;"class="active">Home</a>
+        <a href="#services" style="--i:2;" >Services</a>
+        <a href="#resume" style="--i:3;">Resume</a>
+        <a href="#portfolio" style="--i:4;">Portfolio</a>
+        <a href="#contact" style="--i:5;">Contact</a>
+      </nav>
+      <div class="toggle-icon" style="--i:6;">
+        <i class="bx bx-moon"></i>
+      </div>
+    </header>
+    <main class="container active" id="container">
       <section class="home active" id="home">
-        <div class="home-content">
+        <article class="home-content">
           <h3>Hello, It's Me</h3>
-          <h1>Rizky Amanda</h1>
-          <h3>And I'm a <span class="multiple-text"></span></h3>
+          <h1>Althea Craft</h1>
+          <h3>
+            Transform your crafting idea into <br>
+            <span class="multiple-text"></span>
+          </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            minus rerum tenetur eligendi architecto quidem id numquam corporis
-            consectetur neque dignissimos odio ullam deserunt, maiores eius quae
-            esse ex ipsam?
+            Whether you're a seasoned crafter or just starting out, we provide
+            all the tools, materials, and inspiration you need to bring your
+            creative vision to life. From unique supplies to step-by-step
+            tutorials, our platform is designed to help you turn your crafting
+            ideas into stunning creations. Let your imagination run wild and
+            explore endless possibilities—because with the right resources, your
+            next masterpiece is just a project away.
           </p>
-          <div class="social-media">
+          <aside class="social-media">
             <a href="#" style="--i: 7"><i class="bx bxl-linkedin"></i></a>
-            <a href="#" style="--i: 8"><i class="bx bxl-instagram"></i></a>
-            <a href="#" style="--i: 9"><i class="bx bxl-twitter"></i></a>
-            <a href="#" style="--i: 10"><i class="bx bxl-whatsapp"></i></a>
-          </div>
-          <a href="" class="btn">Download CV</a>
-        </div>
-        <div class="home-img">
+            <a href="#" style="--i: 8"><i class="bx bxl-github"></i></a>
+            <a href="#" style="--i: 9"><i class="bx bxl-whatsapp"></i></a>
+            <a href="#" style="--i: 10"><i class="bx bxl-instagram"></i></a>
+          </aside>
+          <a href="#" class="btn">Download CV</a>
+        </article>
+        <figure class="home-img">
           <div class="img-box">
             <div class="img-item">
-              <img src="./assets/feature3.jpg" alt="" />
+              <img src="./assets/feature3.jpg" alt="image" />
             </div>
           </div>
-        </div>
+        </figure>
       </section>
 
       <section class="services" id="services">
         <h2 class="heading">My <span>Services</span></h2>
         <div class="service-container">
-          <div class="service-box">
+          <article class="service-box">
             <div class="icon">
               <i class="bx bx-code-alt"></i>
               <a href=""><i class="bx bx-arrow-back"></i></a>
             </div>
-            <h3>Web Development</h3>
+            <h3>Paper Crafts</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos expedita culpa eaque commodi at ea, quasi architecto
-              atque debitis, natus cupiditate vel hic, quidem qui rem quae. Ea,
-              perferendis. Quas?
+              Paper crafts involve working with various types of paper to create
+              beautiful, functional, and artistic items.
             </p>
-          </div>
+            <ul>
+              <li>
+                Scrapbooking: Capturing memories through photos, embellishments,
+                and decorative designs.
+              </li>
+              <li>
+                Card Making: Designing personalized greeting cards for special
+                occasions, using stamping, embossing, and cutting techniques.
+              </li>
+              <li>
+                Origami: The art of folding paper into intricate shapes such as
+                animals, flowers, and geometric designs.
+              </li>
+              <li>
+                Paper Mâché: Creating sculptures and objects by layering strips
+                of paper soaked in glue or paste.
+              </li>
+              <li>
+                Decoupage: Decorating objects like boxes, trays, or furniture
+                with paper cutouts, then sealing them with a layer of varnish or
+                glue
+              </li>
+            </ul>
+          </article>
 
-          <div class="service-box">
+          <article class="service-box">
             <div class="icon">
               <i class="bx bxs-paint"></i>
               <a href=""><i class="bx bx-arrow-back"></i></a>
             </div>
-            <h3>UI/UX Design</h3>
+            <h3>Knitting & Crochet</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos expedita culpa eaque commodi at ea, quasi architecto
-              atque debitis, natus cupiditate vel hic, quidem qui rem quae. Ea,
-              perferendis. Quas?
+              Knitting and crochet are textile crafts that involve creating
+              fabric from yarn to make clothing, accessories, or home decor.
             </p>
-          </div>
+            <ul>
+              <li>
+                Knitting Scarves, Hats, & Sweaters: Using knitting needles to
+                create cozy and fashionable pieces like scarves, hats, sweaters,
+                and more.
+              </li>
+              <li>
+                Crochet Amigurumi: The Japanese art of crocheting small, stuffed
+                animals or characters, often used as toys or decorations.
+              </li>
+              <li>
+                Blankets & Throws: Creating soft, warm blankets using various
+                knitting or crochet techniques like cables or granny squares.
+              </li>
+              <li>
+                Crochet Mandalas & Wall Hangings: Making intricate, circular
+                designs to hang as wall art or decorative pieces for the home.
+              </li>
+            </ul>
+          </article>
 
-          <div class="service-box">
+          <article class="service-box">
             <div class="icon">
               <i class="bx bx-palette"></i>
               <a href=""><i class="bx bx-arrow-back"></i></a>
             </div>
-            <h3>Graphic Design</h3>
+            <h3>Sewing & Fabric Crafts</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos expedita culpa eaque commodi at ea, quasi architecto
-              atque debitis, natus cupiditate vel hic, quidem qui rem quae. Ea,
-              perferendis. Quas?
+              Sewing and fabric crafts involve working with textiles to create
+              both functional and artistic projects.
             </p>
-          </div>
+            <ul>
+              <li>
+                Quilting: Stitching together layers of fabric to create
+                blankets, wall hangings, or table runners, often with unique
+                patterns and designs.
+              </li>
+              <li>
+                Embroidery & Cross-Stitch: Adding decorative stitches to fabric,
+                creating intricate designs and patterns on clothing, linens, or
+                home decor.
+              </li>
+              <li>
+                Appliqué: Sewing pieces of fabric onto a larger piece to create
+                designs, often used for clothing or home items like pillowcases.
+              </li>
+              <li>
+                Fabric Painting: Using special paints to decorate fabric items
+                like t-shirts, bags, or home decor, creating custom designs.
+              </li>
+              <li>
+                DIY Clothing & Accessories: Making your own fashion items like
+                dresses, skirts, and bags or revamping old clothing with your
+                personal style.
+              </li>
+            </ul>
+          </article>
 
-          <div class="service-box">
+          <article class="service-box">
             <div class="icon">
               <i class="bx bx-trending-up"></i>
               <a href=""><i class="bx bx-arrow-back"></i></a>
             </div>
-            <h3>SEO</h3>
+            <h3>Jewelry Making</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos expedita culpa eaque commodi at ea, quasi architecto
-              atque debitis, natus cupiditate vel hic, quidem qui rem quae. Ea,
-              perferendis. Quas?
+              Jewelry making is a craft where various materials like beads,
+              metal, and stones are used to create custom jewelry pieces.
             </p>
-          </div>
+            <ul>
+              <li>
+                Beadwork: Using beads and threads to create intricate jewelry
+                pieces such as necklaces, bracelets, and earrings.
+              </li>
+              <li>
+                Wire Wrapping: The art of wrapping wire around stones, crystals,
+                or beads to create unique jewelry designs.
+              </li>
+              <li>
+                Resin Jewelry: Embedding small objects, like flowers or glitter,
+                in clear resin to create custom jewelry pieces like pendants and
+                earrings.
+              </li>
+              <li>
+                Metal Stamping: Using stamps and hammers to imprint designs,
+                names, or phrases on metal pieces, commonly for personalized
+                jewelry.
+              </li>
+              <li>
+                Leather Jewelry: Crafting jewelry from leather pieces, such as
+                bracelets or earrings, often incorporating beads, charms, or
+                metal components.
+              </li>
+            </ul>
+          </article>
 
-          <div class="service-box">
+          <article class="service-box">
             <div class="icon">
               <i class="bx bx-slideshow"></i>
               <a href=""><i class="bx bx-arrow-back"></i></a>
             </div>
-            <h3>Video Editing</h3>
+            <h3>Woodworking</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos expedita culpa eaque commodi at ea, quasi architecto
-              atque debitis, natus cupiditate vel hic, quidem qui rem quae. Ea,
-              perferendis. Quas?
+              Woodworking includes creating items from wood, from simple
+              decorative pieces to intricate furniture.
             </p>
-          </div>
+            <ul>
+              <li>
+                Carving: Shaping wood using tools like knives or gouges to
+                create sculptures, detailed designs, or functional objects.
+              </li>
+              <li>
+                Woodburning (Pyrography): Burning designs into wood using a
+                heated tool to create decorative images or patterns on items
+                like coasters, spoons, and signs.
+              </li>
+              <li>
+                Furniture Restoration: Repairing and refurbishing old furniture
+                to give it new life, often by sanding, staining, and
+                reupholstering.
+              </li>
+              <li>
+                DIY Home Decor: Crafting wood-based home decor, such as picture
+                frames, shelves, or signs, to add a personalized touch to any
+                space.
+              </li>
+              <li>
+                Woodworking for Kids: Simple and fun projects for children, like
+                building birdhouses or small toys, using safe tools and easy
+                techniques.
+              </li>
+            </ul>
+          </article>
 
-          <div class="service-box">
+          <article class="service-box">
             <div class="icon">
               <i class="bx bx-camera"></i>
               <a href=""><i class="bx bx-arrow-back"></i></a>
             </div>
-            <h3>Photograpy</h3>
+            <h3>Painting & Drawing</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos expedita culpa eaque commodi at ea, quasi architecto
-              atque debitis, natus cupiditate vel hic, quidem qui rem quae. Ea,
-              perferendis. Quas?
+              Painting and drawing are traditional art forms that let you
+              express creativity through various mediums and techniques.
             </p>
-          </div>
+            <ul>
+              <li>
+                Polymer Clay Jewelry: Sculpting small, colorful designs from
+                polymer clay to create earrings, necklaces, and bracelets.
+              </li>
+              <li>
+                Pottery and Ceramic Sculpture: Molding clay by hand or using a
+                pottery wheel to create pottery, vases, bowls, or sculptural
+                pieces.
+              </li>
+              <li>
+                Air-Dry Clay Crafts: Using non-bake clay to create projects that
+                dry naturally without the need for a kiln, such as ornaments or
+                small sculptures.
+              </li>
+              <li>
+                Clay Coasters & Bowls: Crafting functional home decor items like
+                coasters or bowls from clay, which can be personalized with
+                colors or textures.
+              </li>
+              <li>
+                Pottery Painting: Adding your artistic touch to ready-made
+                pottery pieces by painting or glazing them to create custom home
+                decor.
+              </li>
+            </ul>
+          </article>
         </div>
       </section>
 
       <section class="resume" id="resume">
         <div class="resume-container">
-          <div class="resume-box">
-            <h2>Why Hire Me?</h2>
+          <article class="resume-box">
+            <h2>Why Crafting with Me?</h2>
             <p class="desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              facere similique reprehenderit dolore voluptates nesciunt beatae
-              quam enim eligendi, cupiditate eveniet quis consectetur excepturi
-              incidunt dolor aut commodi soluta! Quisquam.
+              Crafting is more than just a hobby—it’s a way to bring creativity
+              and passion to life. When you choose to partner with me, you’re
+              choosing a collaborator who values quality, creativity, and
+              attention to detail. With a passion for all things craft-related
+              and years of experience, I bring fresh ideas and reliable
+              expertise to every project. Whether it’s creating custom designs,
+              offering hands-on guidance, or sharing unique techniques, I am
+              committed to bringing your vision to life. Let’s work together to
+              create something extraordinary that reflects your style, your
+              goals, and your creativity.
             </p>
             <button class="resume-button active">Experience</button>
             <button class="resume-button">Education</button>
             <button class="resume-button">Skills</button>
             <button class="resume-button">About Me</button>
-          </div>
+          </article>
           <div class="resume-box">
-            <div class="resume-detail experience active">
+            <article class="resume-detail experience active">
               <h2 class="heading">My <span>Experience</span></h2>
               <p class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                libero illum magni ipsam tempore dignissimos quaerat voluptate,
-                earum distinctio beatae dolore molestias, inventore unde,
-                eligendi sunt recusandae quas aliquam maxime.
+                With a diverse portfolio of successful projects, I’ve had the
+                pleasure of bringing creative visions to life through customized
+                crafting solutions. From designing unique wedding décor and
+                personalized gift sets to crafting eco-friendly workshops and
+                upcycled treasures, each experience has allowed me to showcase
+                my passion for detail, creativity, and craftsmanship. Explore
+                these examples of my work, where each project reflects my
+                commitment to quality and my ability to transform ideas into
+                stunning, tangible results. Let’s collaborate to create
+                something special for your next project!
               </p>
-              <div class="resume-list"> 
+              <article class="resume-list">
                 <div class="resume-item">
                   <p class="year">2023 - Present</p>
-                  <h3>Fronted Development</h3>
-                  <p class="company">Abc corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <h3>Custom Wedding Invitations and Decor</h3>
+                  <p class="company">Wedding Project</p>
+                  <p>
+                    I had the pleasure of working with a couple to create their
+                    dream wedding stationery and décor. They wanted a rustic,
+                    vintage theme with a personalized touch. I designed and
+                    hand-crafted custom wedding invitations, RSVP cards, and
+                    thank-you notes using kraft paper, lace, and delicate
+                    calligraphy. In addition, I created custom paper flower
+                    centerpieces, personalized welcome signs, and table number
+                    holders, all matching the couple’s wedding colors and style.
+                    The couple was thrilled with the results, and the wedding
+                    guests loved the unique, handcrafted touches that made the
+                    event feel intimate and one-of-a-kind.
+                  </p>
                 </div>
 
                 <div class="resume-item">
                   <p class="year">2022 - 2023</p>
-                  <h3>BackEnd Development</h3>
-                  <p class="company">def corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <h3>Personalized Gift Sets for Corporate Clients</h3>
+                  <p class="company">Craft</p>
+                  <p>
+                    A local business approached me to create personalized gift
+                    sets for their clients as part of their annual holiday
+                    campaign. After discussing their brand and values, I curated
+                    custom gift boxes that included hand-poured scented candles,
+                    personalized journals, and hand-lettered greeting cards. I
+                    ensured each set was carefully designed to reflect their
+                    company’s identity while offering a thoughtful, high-quality
+                    gift to their clients. The project was a huge success, and
+                    the business received positive feedback from clients who
+                    appreciated the personal touch and attention to detail.
+                  </p>
                 </div>
 
                 <div class="resume-item">
                   <p class="year">2021 - 2022</p>
-                  <h3>Fullstack Development</h3>
-                  <p class="company">goocle corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <h3>DIY Crafting Workshops for Schools and Communities</h3>
+                  <p class="company">Workshop</p>
+                  <p>
+                    I partnered with a local community center to host a series
+                    of DIY crafting workshops for children and families. The
+                    workshops focused on eco-friendly crafts, such as making
+                    recycled paper jewelry and upcycling old clothing into fun
+                    new accessories. I developed easy-to-follow tutorials and
+                    provided all the necessary materials for participants. The
+                    workshops were well-received, encouraging creativity,
+                    teamwork, and environmental consciousness. Seeing the joy on
+                    the participants' faces as they made their own creations was
+                    incredibly rewarding and demonstrated how crafting can bring
+                    people together in meaningful ways.
+                  </p>
                 </div>
 
                 <div class="resume-item">
                   <p class="year">2020 - 2021</p>
-                  <h3>doremi Development</h3>
-                  <p class="company">yutup corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <h3>Custom Beaded Jewelry for a Fashion Show</h3>
+                  <p class="company">Jewelry corp.</p>
+                  <p>
+                    I collaborated with a local designer to create a custom
+                    collection of beaded jewelry for a fashion show. The
+                    designer’s clothing featured bold patterns and colors, and I
+                    used complementary beading techniques to create statement
+                    necklaces, bracelets, and earrings. My work was showcased on
+                    the runway, with each jewelry piece perfectly matching the
+                    designer’s aesthetic and adding a stunning visual element to
+                    the outfits. This collaboration not only allowed me to push
+                    my creativity but also gave me the chance to work alongside
+                    talented professionals in the fashion industry.
+                  </p>
                 </div>
 
                 <div class="resume-item">
                   <p class="year">2016 - 2020</p>
-                  <h3>magnag Development</h3>
-                  <p class="company">cleam corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <h3>Backdrop Design for a Themed Party</h3>
+                  <p class="company">Party corp.</p>
+                  <p>
+                    I worked with a client to design a magical backdrop for a
+                    50th birthday party with a "Midnight Garden" theme. The
+                    backdrop featured fairy lights, hand-crafted paper flowers,
+                    and a lush greenery display. I incorporated elegant floral
+                    arrangements, vintage fabric drapes, and personalized name
+                    signs. The end result was a breathtaking photo booth
+                    backdrop that became the highlight of the party. Guests
+                    loved taking photos in front of it, and the client was
+                    thrilled with how the design added an enchanting and
+                    memorable element to their celebration.
+                  </p>
                 </div>
 
                 <div class="resume-item">
                   <p class="year">2015 - 2016</p>
-                  <h3>gulali Development</h3>
-                  <p class="company">boboo corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <h3>Crafting Materials for an Online Store Launch</h3>
+                  <p class="company">Shopshop corp.</p>
+                  <p>
+                    When an online craft store was launching its new line of DIY
+                    craft kits, I worked with the team to create beautifully
+                    packaged kits that included all the necessary materials and
+                    step-by-step instructions for making personalized candles
+                    and soaps. I ensured that the packaging was eco-friendly and
+                    aesthetically pleasing while also ensuring the quality of
+                    the materials used. The launch was a success, with customers
+                    praising the ease of the projects and the high-quality
+                    products included in the kits. This experience helped me
+                    refine my skills in product packaging and marketing while
+                    delivering a product that exceeded customer expectations.
+                  </p>
                 </div>
-              </div>
-            </div>
+              </article>
+            </article>
 
-            <div class="resume-detail education">
+            <article class="resume-detail education">
               <h2 class="heading">My <span>Education</span></h2>
               <p class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                libero illum magni ipsam tempore dignissimos quaerat voluptate,
-                earum distinctio beatae dolore molestias, inventore unde,
-                eligendi sunt recusandae quas aliquam maxime.
+                I believe that crafting is a lifelong learning process, and I’ve made it a priority to continuously expand my skills and knowledge. Here’s a glimpse into the educational background and training that has shaped my craft:
               </p>
-              <div class="resume-list">
+              <article class="resume-list">
                 <div class="resume-item">
-                  <p class="year">2015 - 2016</p>
-                  <h3>gulali Development</h3>
-                  <p class="company">boboo corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <p class="year">2017 - 2021</p>
+                  <h3>Bachelor’s Degree in Fine Arts</h3>
+                  <p class="company">University of Arts</p>
+                  <p>
+                    Graduating with a degree in Fine Arts provided me with a strong foundation in artistic principles, design theory, and hands-on techniques. I explored a variety of mediums, including painting, sculpture, and textile arts, which deepened my understanding of color, composition, and creativity that I now apply to all my craft projects.
+                  </p>
                 </div>
                 <div class="resume-item">
-                  <p class="year">2015 - 2016</p>
-                  <h3>gulali Development</h3>
-                  <p class="company">boboo corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <p class="year">2017 - 2018</p>
+                  <h3>Advanced Crafting Techniques Workshops</h3>
+                  <p class="company">Craft Institute of New York</p>
+                  <p>
+                    To hone my skills in specific craft areas, I’ve attended several advanced workshops on topics such as jewelry making, macramé, and paper flower design. These workshops allowed me to work with expert artisans, refine my techniques, and stay updated on the latest trends in the crafting world.
+                  </p>
                 </div>
                 <div class="resume-item">
-                  <p class="year">2015 - 2016</p>
-                  <h3>gulali Development</h3>
-                  <p class="company">boboo corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <p class="year">2018 - 2019</p>
+                  <h3>Sustainable Crafting Practices Certification</h3>
+                  <p class="company">Green Crafting Academy</p>
+                  <p>
+                    With a growing interest in eco-friendly crafting, I completed a certification in sustainable crafting practices. This course taught me how to incorporate environmentally conscious materials, reduce waste, and create beautiful items with minimal environmental impact—a practice I’m passionate about bringing into all my work.
+                  </p>
                 </div>
                 <div class="resume-item">
-                  <p class="year">2015 - 2016</p>
-                  <h3>gulali Development</h3>
-                  <p class="company">boboo corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
+                  <p class="year">2015 - present</p>
+                  <h3>Self-Taught in Digital Design & Calligraphy</h3>
+                  <p class="company">My corp.</p>
+                  <p>
+                    Through online courses and self-guided learning, I’ve mastered digital design tools (like Adobe Illustrator and Canva) and calligraphy techniques, allowing me to offer modern, custom designs and unique lettering styles for stationery, signage, and digital projects.
+                  </p>
                 </div>
-                <div class="resume-item">
-                  <p class="year">2015 - 2016</p>
-                  <h3>gulali Development</h3>
-                  <p class="company">boboo corp.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quidem aut exercitationem ipsa. Odio quia explicabo amet corporis sapiente nulla quam distinctio! Tempore, impedit. Quae ab impedit illo cupiditate dolor.</p>
-                </div>
-              </div>
-            </div>
+              </article>
+            </article>
 
-            <div class="resume-detail skills">
+            <article class="resume-detail skills">
               <h2 class="heading">My <span>Skills</span></h2>
               <p class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                libero illum magni ipsam tempore dignissimos quaerat voluptate,
-                earum distinctio beatae dolore molestias, inventore unde,
-                eligendi sunt recusandae quas aliquam maxime.
+                From jewelry making to sustainable crafting, my diverse skill set allows me to bring any creative vision to life. With expertise in multi-material crafting, color theory, hand-lettering, and project management, I deliver high-quality, personalized pieces that reflect your unique style. Whether you need custom décor, a DIY tutorial, or a one-of-a-kind gift, I’m dedicated to providing top-notch craftsmanship and attention to detail in every project. Let’s work together and turn your ideas into beautifully crafted reality!
               </p>
-              <div class="resume-list">
+              <article class="resume-list">
                 <div class="resume-item">
-                  <i class='bx bxl-html5' ></i>
-                  <span>HTML5</span>
+                  <i class="bx bxl-html5"></i>
+                  <span>Creative Design</span>
                 </div>
                 <div class="resume-item">
-                  <i class='bx bxl-css3' ></i>
-                  <span>CSS3</span>
+                  <i class="bx bxl-css3"></i>
+                  <span>Attention to Detail</span>
                 </div>
                 <div class="resume-item">
-                  <i class='bx bxl-javascript' ></i>
-                  <span>JavaScript</span>
+                  <i class="bx bxl-javascript"></i>
+                  <span>Multi-Material Crafting</span>
                 </div>
                 <div class="resume-item">
-                  <i class='bx bxl-java' ></i>
-                  <span>Java</span>
+                  <i class="bx bxl-java"></i>
+                  <span>Jewelry Making</span>
                 </div>
                 <div class="resume-item">
-                  <i class='bx bxl-tailwind-css' ></i>
-                  <span>Tailwind CSS</span>
+                  <i class="bx bxl-tailwind-css"></i>
+                  <span>Color Theory and Composition</span>
                 </div>
                 <div class="resume-item">
-                  <i class='bx bxl-c-plus-plus' ></i>
-                  <span>C/C++</span>
+                  <i class="bx bxl-c-plus-plus"></i>
+                  <span>Crafting with Sustainability</span>
                 </div>
-              </div>
-            </div>
+              </article>
+            </article>
 
-            <div class="resume-detail aboutme">
+            <article class="resume-detail aboutme">
               <h2 class="heading">About <span>Me</span></h2>
               <p class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                libero illum magni ipsam tempore dignissimos quaerat voluptate,
-                earum distinctio beatae dolore molestias, inventore unde,
-                eligendi sunt recusandae quas aliquam maxime.
+                When I'm not crafting, you’ll find me sourcing sustainable materials, experimenting with new craft techniques, or sharing my passion through workshops and tutorials. I’m always excited to collaborate with others who share the same love for creativity and design, and I look forward to helping you make something special!
               </p>
-              <div class="resume-list">
+              <article class="resume-list">
                 <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
+                  <p>Company : <span>Althea Craft</span></p>
                 </div>
                 <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
+                  <p>Author : <span>Amanda</span></p>
                 </div>
                 <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
+                  <p>Hobby : <span>Game and Crafting, also coding</span></p>
                 </div>
                 <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
+                  <p>Color : <span>Pink and Black</span></p>
                 </div>
                 <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
+                  <p>Address : <span>Indonesia</span></p>
                 </div>
                 <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
+                  <p>Love language : <span>Craft</span></p>
                 </div>
                 <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
+                  <p>Pet : <span>Cats</span></p>
                 </div>
-                <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
-                </div>
-                <div class="resume-item">
-                  <p>Name<span>Amanda</span></p>
-                </div>
-              </div>
-            </div>
+              </article>
+            </article>
           </div>
         </div>
       </section>
@@ -338,118 +545,237 @@
         <h2 class="heading">Latest <span>Project</span></h2>
         <div class="portfolio-container">
           <div class="portfolio-box">
-            <div class="portfolio-detail active">
+            <article class="portfolio-detail active">
               <p class="numb">01</p>
-              <h3>Fronted Project</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, rem. Saepe maxime minima quibusdam inventore deserunt necessitatibus adipisci odit nihil. Aperiam nulla explicabo praesentium voluptatibus voluptatum beatae perferendis esse nostrum!</p>
+              <h3>Paper Flower Bouquet</h3>
+              <p>
+                Create a beautiful, everlasting paper flower bouquet by cutting
+                and assembling petals from colored paper. You can use tissue
+                paper for soft, delicate blooms or cardstock for sturdier, more
+                structured flowers. Arrange the flowers into a bouquet and wrap
+                the stems with floral wire or sticks, then tape them with green
+                floral tape to give the bouquet a realistic look. These paper
+                flowers make a perfect gift, home decor, or wedding centerpiece
+                that will never wilt.
+              </p>
               <div class="tech">
-                <p>HTML5, CSS3, JavaScript</p>
+                <p>
+                  Colored paper (tissue paper, crepe paper, or cardstock),
+                  Scissors, Glue or tape, Floral wire or wooden sticks, Green
+                  floral tape
+                </p>
               </div>
               <div class="live-github">
-                <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
-                <a href="#"><i class='bx bxl-github' ></i><span>Github Repositories</span></a>
+                <a href="#"
+                  ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+                >
+                <a href="#"
+                  ><i class="bx bxl-github"></i
+                  ><span>Github Repositories</span></a
+                >
               </div>
-            </div>
-            <div class="portfolio-detail">
+            </article>
+            <article class="portfolio-detail">
               <p class="numb">02</p>
-              <h3>Java</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, rem. Saepe maxime minima quibusdam inventore deserunt necessitatibus adipisci odit nihil. Aperiam nulla explicabo praesentium voluptatibus voluptatum beatae perferendis esse nostrum!</p>
+              <h3>DIY Beaded Bracelets</h3>
+              <p>
+                Make unique and colorful beaded bracelets by stringing beads
+                onto stretch cord or wire, and finishing with a clasp for easy
+                wear. Choose a mix of beads, from glass to wooden, and
+                experiment with different patterns or color schemes. You can
+                create multiple bracelets in different styles, such as
+                minimalist or stacked bracelets, to give as gifts or wear
+                yourself. This project is great for beginners and can be
+                completed quickly, making it perfect for personal accessories or
+                small gifts.
+              </p>
               <div class="tech">
-                <p>HTML5, CSS3, JavaScript</p>
+                <p>
+                  Beads (variety of sizes and colors), Stretch cord or jewelry
+                  wire, Jewelry clasps, Needle or beading tool (optional),
+                  Scissors
+                </p>
               </div>
               <div class="live-github">
-                <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
-                <a href="#"><i class='bx bxl-github' ></i><span>Github Repositories</span></a>
+                <a href="#"
+                  ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+                >
+                <a href="#"
+                  ><i class="bx bxl-github"></i
+                  ><span>Github Repositories</span></a
+                >
               </div>
-            </div>
-            <div class="portfolio-detail">
+            </article>
+            <article class="portfolio-detail">
               <p class="numb">03</p>
-              <h3>JavaScript</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, rem. Saepe maxime minima quibusdam inventore deserunt necessitatibus adipisci odit nihil. Aperiam nulla explicabo praesentium voluptatibus voluptatum beatae perferendis esse nostrum!</p>
+              <h3>Crochet Granny Square Blanket</h3>
+              <p>
+                Crochet a cozy and colorful granny square blanket that’s perfect
+                for the fall or winter. Start by making small, square crochet
+                blocks (granny squares) using different colors of yarn, and join
+                them together to form a larger blanket. You can mix and match
+                colors to create a pattern or go for a solid-color look. This
+                project may take some time to complete, but the result is a
+                beautiful, handmade throw that can be used for years to come.
+                Ideal for intermediate crafters or those looking to learn basic
+                crochet techniques.
+              </p>
               <div class="tech">
-                <p>HTML5, CSS3, JavaScript</p>
+                <p>
+                  Yarn (multiple colors), Crochet hook, Scissors, Yarn needle
+                </p>
               </div>
               <div class="live-github">
-                <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
-                <a href="#"><i class='bx bxl-github' ></i><span>Github Repositories</span></a>
+                <a href="#"
+                  ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+                >
+                <a href="#"
+                  ><i class="bx bxl-github"></i
+                  ><span>Github Repositories</span></a
+                >
               </div>
-            </div>
-            <div class="portfolio-detail">
+            </article>
+            <article class="portfolio-detail">
               <p class="numb">04</p>
-              <h3>CSS3</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, rem. Saepe maxime minima quibusdam inventore deserunt necessitatibus adipisci odit nihil. Aperiam nulla explicabo praesentium voluptatibus voluptatum beatae perferendis esse nostrum!</p>
+              <h3>Backdrop Wall Design</h3>
+              <p>
+                Design a stunning backdrop wall for photos or events such as
+                parties, weddings, or celebrations. Start by choosing a fabric
+                or craft paper as the base for your backdrop. Add elements like
+                string lights for a magical effect, banners, balloons, or faux
+                flowers to match the theme. This project allows for lots of
+                creativity, as you can customize the backdrop with colors and
+                designs to suit any occasion. Perfect for creating a memorable
+                photo booth or focal point in any room.
+              </p>
               <div class="tech">
-                <p>HTML5, CSS3, JavaScript</p>
+                <p>
+                  Craft paper, fabric, or backdrop cloth, String lights or fairy
+                  lights (optional), Decorative elements (banners, flowers,
+                  balloons, etc.), Hooks, nails, or adhesive strips (for
+                  hanging)
+                </p>
               </div>
               <div class="live-github">
-                <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
-                <a href="#"><i class='bx bxl-github' ></i><span>Github Repositories</span></a>
+                <a href="#"
+                  ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+                >
+                <a href="#"
+                  ><i class="bx bxl-github"></i
+                  ><span>Github Repositories</span></a
+                >
               </div>
-            </div>
-            <div class="portfolio-detail">
+            </article>
+            <article class="portfolio-detail">
               <p class="numb">05</p>
-              <h3>BackEnd Project</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, rem. Saepe maxime minima quibusdam inventore deserunt necessitatibus adipisci odit nihil. Aperiam nulla explicabo praesentium voluptatibus voluptatum beatae perferendis esse nostrum!</p>
+              <h3>Upcycled Denim Tote Bag</h3>
+              <p>
+                Repurpose an old pair of denim jeans into a stylish and
+                functional tote bag. Cut the legs of the jeans to the desired
+                size for the body of the bag, then sew the edges together to
+                form the main compartment. Use the waistband or the jean's belt
+                loops to create straps for the bag. You can also add pockets,
+                embellishments, or fabric paint for a personalized touch. This
+                upcycled project is perfect for those looking to refresh their
+                wardrobe while being eco-friendly by turning old clothing into
+                something new.
+              </p>
               <div class="tech">
-                <p>HTML5, CSS3, JavaScript</p>
+                <p>
+                  Old denim jeans or fabric, Sewing machine, Fabric glue
+                  (optional), Scissors, Measuring tape, Needle and thread
+                </p>
               </div>
               <div class="live-github">
-                <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
-                <a href="#"><i class='bx bxl-github' ></i><span>Github Repositories</span></a>
+                <a href="#"
+                  ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+                >
+                <a href="#"
+                  ><i class="bx bxl-github"></i
+                  ><span>Github Repositories</span></a
+                >
               </div>
-            </div>
-            <div class="portfolio-detail">
+            </article>
+            <article class="portfolio-detail">
               <p class="numb">06</p>
-              <h3>Gulali Project</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, rem. Saepe maxime minima quibusdam inventore deserunt necessitatibus adipisci odit nihil. Aperiam nulla explicabo praesentium voluptatibus voluptatum beatae perferendis esse nostrum!</p>
+              <h3>Handmade Greeting Cards</h3>
+              <p>
+                Create personalized greeting cards for birthdays, holidays, or
+                special occasions. Start by stamping or stenciling your chosen
+                design onto the front of a blank card, then use markers or pens
+                to add handwritten notes, quotes, or additional drawings.
+                Embellish with stickers, washi tape, or ribbons for a unique and
+                festive touch. This project is easy, fun, and can be customized
+                for any event or holiday. It’s a great way to express creativity
+                while crafting something heartfelt for a loved one.
+              </p>
               <div class="tech">
-                <p>HTML5, CSS3, JavaScript</p>
+                <p>
+                  Blank cardstock, Rubber stamps or stencils, Ink pads, Stickers
+                  or embellishments, Markers or pens, Ribbon (optional)
+                </p>
               </div>
               <div class="live-github">
-                <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
-                <a href="#"><i class='bx bxl-github' ></i><span>Github Repositories</span></a>
+                <a href="#"
+                  ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+                >
+                <a href="#"
+                  ><i class="bx bxl-github"></i
+                  ><span>Github Repositories</span></a
+                >
               </div>
-            </div>
+            </article>
           </div>
-          
+
           <div class="portfolio-box">
-            <div class="portfolio-carousel">
+            <figure class="portfolio-carousel">
               <div class="img-slide">
                 <div class="img-item">
-                  <img src="./assets/slide1.jpg">
+                  <img src="./assets/slide1.jpg" alt="image1" />
                 </div>
                 <div class="img-item">
-                  <img src="./assets/slide2.jpg">
+                  <img src="./assets/slide2.jpg" alt="image2" />
                 </div>
                 <div class="img-item">
-                  <img src="./assets/slide3.jpg">
+                  <img src="./assets/slide3.jpg" alt="image3" />
                 </div>
                 <div class="img-item">
-                  <img src="./assets/slide4.jpg">
+                  <img src="./assets/slide4.jpg" alt="image4" />
                 </div>
                 <div class="img-item">
-                  <img src="./assets/slide5.jpg">
+                  <img src="./assets/slide5.jpg" alt="image6" />
                 </div>
                 <div class="img-item">
-                  <img src="./assets/slide6.jpg">
+                  <img src="./assets/slide6.jpg" alt="image7" />
                 </div>
               </div>
-            </div>
-            <div class="navigation">
-              <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
-              <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
-            </div>
+            </figure>
+            <aside class="navigation">
+              <button class="arrow-left disabled">
+                <i class="bx bx-chevron-left"></i>
+              </button>
+              <button class="arrow-right">
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </aside>
           </div>
         </div>
       </section>
 
       <section class="contact" id="contact">
         <div class="contact-container">
-          <div class="contact-box">
-            <h2>Lets work together</h2>
-            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloremque numquam ut, eaque tempore deserunt neque totam omnis ipsum itaque porro a sequi modi sint ducimus veniam, nemo pariatur accusantium?</p>
+          <article class="contact-box">
+            <h2>Get in Touch with Me!</h2>
+            <p class="desc">
+              Have a question, comment, or just want to chat about crafting? I’d
+              love to hear from you! Whether you need help with a project, have
+              a special request, or simply want to share your crafting ideas,
+              don’t hesitate to reach out. Fill out the contact form below, and
+              I’ll get back to you as soon as possible. Let's create something
+              beautiful together!
+            </p>
             <div class="contact-detail">
-              <i class='bx bx-phone' ></i>
+              <i class="bx bx-phone"></i>
               <div class="detail">
                 <p>Phone</p>
                 <p>(+62 8976215777)</p>
@@ -457,7 +783,7 @@
             </div>
 
             <div class="contact-detail">
-              <i class='bx bx-envelope' ></i>
+              <i class="bx bx-envelope"></i>
               <div class="detail">
                 <p>Email</p>
                 <p>amandzaa@gmail.com</p>
@@ -465,32 +791,38 @@
             </div>
 
             <div class="contact-detail">
-              <i class='bx bx-map' ></i>
+              <i class="bx bx-map"></i>
               <div class="detail">
                 <p>Address</p>
                 <p>gading Serpong, Tangerang, Banten</p>
               </div>
             </div>
+          </article>
 
-          </div>
-
-          <div class="contact-box">
+          <article class="contact-box">
             <form action="">
               <h2 class="heading">Contact <span>Me!</span></h2>
               <div class="field-box">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
-                <input type="text" placeholder="Phone Number" required>
-                <input type="text" placeholder="Email Subject" required>
-                <textarea name="" id="" placeholder="Your Message" required></textarea>
+                <input type="text" placeholder="Full Name" required />
+                <input type="email" placeholder="Email Address" required />
+                <input type="text" placeholder="Phone Number" required />
+                <input type="text" placeholder="Email Subject" required />
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="Your Message"
+                  required
+                ></textarea>
               </div>
               <button type="submit" class="btn">Send Message</button>
             </form>
-          </div>
+          </article>
         </div>
       </section>
-
-    </div>
+    </main>
+    <footer>
+      <p>&copy; Portfolio by Amanda</p>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
   </body>
